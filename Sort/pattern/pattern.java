@@ -12,6 +12,7 @@ public class pattern {
         pattern7(n);
         pattern8(n);
         pattern9(n);
+        pattern10(n);
     }
     static void pattern1(int n){
         for (int row = 1; row <n ; row++){
@@ -160,6 +161,18 @@ public class pattern {
             }
             System.out.println();
     }
-
 }
+    static void pattern10(int n){
+
+       for (int row = 1; row <=n ; row++){
+            for (int col = 1; col <=n+1-row; col++) 
+            {
+                System.out.print("* ");
+            }
+        
+            System.out.println();
+    }
+
+    }
+
 }

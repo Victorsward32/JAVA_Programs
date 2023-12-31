@@ -1,8 +1,12 @@
 package interview;
+
+import java.util.Scanner;
+
 // question 
 public class question1 {
     public static void main(String[] args) {
-        int n=123;
+        Scanner Sc= new Scanner(System.in);
+        int n=Sc.nextInt();;
         int lastvalue;
         int last_result=0;
         int total=0;
