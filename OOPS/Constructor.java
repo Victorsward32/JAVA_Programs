@@ -21,11 +21,11 @@ public class Constructor {
 }
 class abc{
     
-//    parameterized constructor
+//    parameterized constructor 
     int z;
     String name;
 
-    public abc(int x,String name){
+    public abc(int z,String name){
         this.z=z;
         this.name=name;
 
