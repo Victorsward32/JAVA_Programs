@@ -4,9 +4,9 @@ import java.util.*;
 public class fibonacci {
     public static int fib_series(int num){
         if(num==0||num==1){
-            return 1;
+            return num;
         }else{
-            return fib_series(num-1)+fib_series(num-2);
+            return fib_series(num-2)+fib_series(num-1);
 
         }
 
@@ -18,7 +18,7 @@ public class fibonacci {
         // int fst_N=0;
         // int Scnd_N=1;
         System.out.println(num);
-        for(int i=0;i< num;i++){
+        for(int i=1;i<=num;i++){
             System.out.println(fib_series(i));
 
         }
