@@ -7,15 +7,28 @@ public class reverseNoinjava {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the Number here");
         int num=sc.nextInt();
-        int Value=num;
-        int temp=0;
+        int Value=num;;
+        int Value2=num;
+        int total;
+        
+        int rev=0;
 
-        while(Value!=0){
-            temp=temp*10+Value%10;
+         while(Value!=0){
+            rev=rev*10+Value%10;
             Value/=10;
-
         }
-        System.out.println(temp);
+        System.out.println(rev);
+
+        // Logic 2 String Buffer Class
+        StringBuffer reverse;
+        StringBuffer sb=new StringBuffer(String.valueOf(num));
+        reverse=sb.reverse();
+
+        System.out.println(reverse);
+
+        // Logic 3 Using StringBuilder class 
+
+
 
     }
 

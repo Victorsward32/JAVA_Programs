@@ -11,11 +11,11 @@ public class armstrong {
         int result_value=0;
         int armstrong=0;
 
-        while(z>0){
-            digit_count=digit_count+1;
-            z/=10;
-        }
-        System.out.println(digit_count);
+        // while(z>0){
+        //     digit_count=digit_count+1;
+        //     z/=10;
+        // }
+        // System.out.println(digit_count);
         
         while (m>0){
             int digit=m%10;
