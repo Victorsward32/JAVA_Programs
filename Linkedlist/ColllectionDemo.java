@@ -25,7 +25,7 @@ public class ColllectionDemo {
             
         }
         
-        System.out.println(l1.get(0));
+        System.out.println(l1.get(0   ));
         
         System.out.println(l1);
     }
