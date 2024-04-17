@@ -6,10 +6,10 @@ class A {
     }
 
     int z;
-    String name;
+    String name; 
 
     
-    
+     
 }
 class B extends A{
     void showB(){

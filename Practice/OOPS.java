@@ -61,7 +61,7 @@ class Student{
 
     }
 
-public class OOPS {
+public class OOPS extends Student {
     public static void main(String[] args) {
         pen pen1=new pen();
         pen1.name="Fountain-gripper";
@@ -81,6 +81,7 @@ public class OOPS {
         Student s2=new Student(s1;)
 
         s1.Printinfo();
+
         
     
     }
