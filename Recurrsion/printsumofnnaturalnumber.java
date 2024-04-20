@@ -9,7 +9,7 @@ public class printsumofnnaturalnumber {
             System.out.println(sum);
 
             return;
-        }
+        } 
         sum+=i;
         System.out.println(sum);
         PrintSum(i+1,n,sum);

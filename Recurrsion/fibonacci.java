@@ -28,3 +28,26 @@ public class fibonacci {
     }
     
 }
+
+class fibonacciseries{
+    public static void fibonacciSeries(int firstTerm,int secondTerm,int n){
+        if (n==0) {
+            return;
+            
+        }
+        //initialize first and second term
+        int nextTerm= firstTerm+secondTerm;
+
+        //print the first two terms
+        System.out.println(nextTerm);
+
+        fibonacciSeries(secondTerm , nextTerm, n-1 );
+    }
+
+    public static void main(String[] args) {
+        int n= 7;
+        int firstTerm = 0;
+        int secondTerm=1;
+        fibonacciSeries( firstTerm, secondTerm,n-2);
+    }
+}

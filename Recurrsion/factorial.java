@@ -31,3 +31,29 @@ public class factorial {
     }
     
 }
+
+class facto {
+
+    public static int printfacto(int n){
+        if(n==1 || n==0){
+            return 1;
+        }
+        int factorial_nm1=printfacto(n-1);
+        int  factorial_n= n*factorial_nm1;
+        System.out.println(n);
+        return factorial_n;
+
+    }
+    public static void main(String[] args) {
+        int n=5;
+
+        int ans=printfacto(n);
+
+        System.out.println(ans);
+
+
+
+    }
+
+
+}
