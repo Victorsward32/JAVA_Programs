@@ -46,6 +46,7 @@ public class Alphabatesreturn {
                 }
                 System.out.println(c+" returns "+(count+1)+" times");
                 counted.add(c);
+                
             }
         }
     }
