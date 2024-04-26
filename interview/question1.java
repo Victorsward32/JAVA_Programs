@@ -8,14 +8,17 @@ public class question1 {
         Scanner Sc= new Scanner(System.in);
         int n=Sc.nextInt();;
         int lastvalue;
-        int last_result=0;
+        long last_result=0;
         int total=0;
 
-        while(n>0){
+        while(n!=0){
             lastvalue=n%10;
             last_result=last_result*10+lastvalue;
             n=n/10;
             total=total+lastvalue;
+            if(last_result>Integer.MAX_VALUE|| last_result<Integer.MIN_VALUE){
+                System.out.println(0);
+                }
 
         }
 
