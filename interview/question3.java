@@ -1,6 +1,6 @@
 package interview;
 
-public class question3 {
+public class question3 { 
     public static void main(String[] args) {
         String x="I Love Java";
         char[] arr=x.toCharArray();
