@@ -14,7 +14,7 @@ public class Constructor {
         System.out.println(data.x+" "+data.y);
 
         abc data2= new abc(12,"ABCD");
-        System.out.println(data2.z+" "+data2.name);
+        System.out.println(data2.Emp_id+" "+data2.Emp_name);
 
     }
     
@@ -22,12 +22,12 @@ public class Constructor {
 class abc{
     
 //    parameterized constructor 
-    int z;
-    String name;
+    int Emp_id;
+    String Emp_name;
 
-    public abc(int z,String name){
-        this.z=z;
-        this.name=name;
+    public abc(int Emp_id,String Emp_name){
+        this.Emp_id=Emp_id;
+        this.Emp_name=Emp_name;
 
     }
 
